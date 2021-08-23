@@ -1,0 +1,281 @@
+{
+  "contractName": "ToDoList",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "count",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0x06661abd"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "taskCount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xb6cb58a5"
+    }
+  ],
+  "bytecode": "0x60806040526000805534801561001457600080fd5b506101dc806100246000396000f3fe60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306661abd14610051578063b6cb58a5146100e1575b600080fd5b34801561005d57600080fd5b5061006661010c565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100a657808201518184015260208101905061008b565b50505050905090810190601f1680156100d35780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156100ed57600080fd5b506100f66101aa565b6040518082815260200191505060405180910390f35b60018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101a25780601f10610177576101008083540402835291602001916101a2565b820191906000526020600020905b81548152906001019060200180831161018557829003601f168201915b505050505081565b6000548156fea165627a7a72305820ccddce2ca7d106ddcce749d21ba19ef1b090ed188917e1ffc025ad942e90f8ca0029",
+  "deployedBytecode": "0x60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306661abd14610051578063b6cb58a5146100e1575b600080fd5b34801561005d57600080fd5b5061006661010c565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100a657808201518184015260208101905061008b565b50505050905090810190601f1680156100d35780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156100ed57600080fd5b506100f66101aa565b6040518082815260200191505060405180910390f35b60018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101a25780601f10610177576101008083540402835291602001916101a2565b820191906000526020600020905b81548152906001019060200180831161018557829003601f168201915b505050505081565b6000548156fea165627a7a72305820ccddce2ca7d106ddcce749d21ba19ef1b090ed188917e1ffc025ad942e90f8ca0029",
+  "sourceMap": "27:80:1:-;;;75:1;51:25;;27:80;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:80:1;;;;;;;",
+  "deployedSourceMap": "27:80:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;84:19;;8:9:-1;5:2;;;30:1;27;20:12;5:2;84:19:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;84:19:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;51:25;;8:9:-1;5:2;;;30:1;27;20:12;5:2;51:25:1;;;;;;;;;;;;;;;;;;;;;;;84:19;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;51:25::-;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract ToDoList{\r\n    uint public taskCount = 0; \r\n    string public count;\r\n}",
+  "sourcePath": "C:/Users/FAVOUR/Downloads/cmder/eth-todo-list/contracts/todolist.sol",
+  "ast": {
+    "absolutePath": "/C/Users/FAVOUR/Downloads/cmder/eth-todo-list/contracts/todolist.sol",
+    "exportedSymbols": {
+      "ToDoList": [
+        40
+      ]
+    },
+    "id": 41,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 40,
+        "linearizedBaseContracts": [
+          40
+        ],
+        "name": "ToDoList",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "name": "taskCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 40,
+            "src": "51:25:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "51:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "75:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 39,
+            "name": "count",
+            "nodeType": "VariableDeclaration",
+            "scope": 40,
+            "src": "84:19:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 38,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "84:6:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 41,
+        "src": "27:80:1"
+      }
+    ],
+    "src": "0:107:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/FAVOUR/Downloads/cmder/eth-todo-list/contracts/todolist.sol",
+    "exportedSymbols": {
+      "ToDoList": [
+        40
+      ]
+    },
+    "id": 41,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 40,
+        "linearizedBaseContracts": [
+          40
+        ],
+        "name": "ToDoList",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "name": "taskCount",
+            "nodeType": "VariableDeclaration",
+            "scope": 40,
+            "src": "51:25:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "51:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "75:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 39,
+            "name": "count",
+            "nodeType": "VariableDeclaration",
+            "scope": 40,
+            "src": "84:19:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 38,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "84:6:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 41,
+        "src": "27:80:1"
+      }
+    ],
+    "src": "0:107:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x93Ca95F35Cc05f6fD749bd2045a07be2eE020C98",
+      "transactionHash": "0xfe572bb1503cb9baf469f44bb6d9c28da853ac20a57f327a05d0c9b49fb1c730"
+    }
+  },
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2021-08-19T19:21:49.485Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
